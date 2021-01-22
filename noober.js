@@ -1,5 +1,17 @@
 function pageLoad() {
   // 👇 YOUR CODE BEGINS HERE. DON'T CHANGE ANY OTHER CODE. 👇
+if(ride.length>1){
+levelOfService ='Noober Pool'
+}
+passenger1Name= ride[0].passengerDetails.first +[" "]+ ride[0].passengerDetails.last
+passenger1Phone= ride[0].passengerDetails.phoneNumber
+passenger1NumberOfPassengers=ride[0].numberOfPassengers
+
+passenger2Name = ride[1].passengerDetails.first +[" "]+ ride[1].passengerDetails.last
+passenger2Phone= ride[1].passengerDetails.phoneNumber
+passenger2NumberOfPassengers=ride[1].numberOfPassengers
+
+
 
   // 🔥🔥🔥 YOUR CODE GOES HERE 🔥🔥🔥
   // the 'ride' variable contains data about a random ride (i.e. when the page)
