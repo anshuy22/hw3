@@ -9,7 +9,7 @@ if(ride.length>1){
     passenger1PickupAddressLine2  = ride[0].pickupLocation.city + [', '] + ride[0].pickupLocation.state +[' ']+ ride[0].pickupLocation.zip 
     passenger1DropoffAddressLine1 = ride[0].dropoffLocation.address
     passenger1DropoffAddressLine2 = ride[0].dropoffLocation.city + [', '] + ride[0].dropoffLocation.state +[' ']+ ride[0].dropoffLocation.zip 
-    
+  
     passenger2Name = ride[1].passengerDetails.first +[" "]+ ride[1].passengerDetails.last
     passenger2Phone= ride[1].passengerDetails.phoneNumber
     passenger2NumberOfPassengers=ride[1].numberOfPassengers
